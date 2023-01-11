@@ -3,10 +3,10 @@ using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
 
-namespace Esska.AnimatorMaintenance {
+namespace Esska.AnimatorMaintenance.Editor {
 
     [CustomEditor(typeof(AnimatorMaintenance))]
-    public class AnimatorMainteneanceEditor : Editor {
+    public class AnimatorMainteneanceEditor : UnityEditor.Editor {
 
         static bool confirmBackup;
 

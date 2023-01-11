@@ -1,7 +1,7 @@
 ﻿using UnityEditor.Animations;
 using UnityEngine;
 
-namespace Esska.AnimatorMaintenance {
+namespace Esska.AnimatorMaintenance.Editor {
 
     public static class AnimatorControllerExtensions {
 
