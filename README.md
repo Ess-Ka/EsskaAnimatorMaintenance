@@ -1,3 +1,5 @@
+**IMPORTANT**: V2.0: Installation method has changed! Please read the "Installation" section below.
+
 # Esska Animator Maintenance
 
 This software allows you to analyze and clean up Unity Animation Controllers.
@@ -15,6 +17,25 @@ The Animation Controller stores objects of following types in the same .controll
 - StateMachineBehaviour
 
 For each of this objects, the script iterates through all layers, (sub) state machines and states in the Animation Controller. An object which cannot be found, will be recognized as unused and can be removed from Animation Controller.
+
+
+## Installation
+
+There is no .unitypackage file anymore. You can use the Unity Package Manager or VRChat Creator Companion to install the package.
+
+If you have already installed a version before 2.0, you have to delete the Assets/Esska/AnimatorMaintenance folder in the Unity "Project" pane first.
+
+### Unity Package Manager
+
+Package Manager: Click on the "+" icon on left top and select "Add package from git URL...". Enter the Git-URL of this repository. When a new version is available, you will be notificated and you can update to the latest version in the Package Manager.
+
+Alternatively, download and unzip the package somewhere on your harddisk or clone the repository. Using the "+" icon in the Package Manager, select ""Add package from disk..." and select the package.json in the folder you have unzipped/cloned before.
+
+### VRChat Creator Companion
+
+Download and unzip the package somewhere on your harddisk or clone the repository.
+
+Creator Companion -> Settings -> User Packages: Add the folder you have unzipped/cloned before. On your project, allow "Local User Packages" in the dropdown field on top. Now, you see "Esska Animator Maintenance" in the list. You can add or remove it to any of your projects.
 
 ## Usage
 
