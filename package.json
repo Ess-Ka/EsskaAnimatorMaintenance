@@ -1,0 +1,24 @@
+{
+  "name": "com.esska.animator-maintenance",
+  "displayName": "Esska Animator Maintenance",
+  "version": "2.0.0",
+  "unity": "2019.4",
+  "description": "Esska Animator Maintenance allows you to analyze and clean up Unity Animation Controllers.",
+  "author": {
+    "name": "Esska",
+    "url": "https://github.com/Ess-Ka/EsskaAnimatorMaintenance"
+  },
+  "vpmDependencies": {
+    "com.vrchat.avatars": "3.1.x"
+  },
+  "legacyFolders": {
+    "Assets\\Esska\\AnimatorMaintenance": "1d0757d5be55bf84e981e061a54258f4"
+  },
+  "samples": [
+    {
+      "displayName": "Prefabs",
+      "description": "Prefabs",
+      "path": "Prefabs"
+    }
+  ]  
+}
