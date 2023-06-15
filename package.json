@@ -9,7 +9,7 @@
     "url": "https://github.com/Ess-Ka/EsskaAnimatorMaintenance"
   },
   "vpmDependencies": {
-    "com.vrchat.avatars": "^3.1.x"
+    "com.vrchat.avatars": ">=3.1"
   },
   "legacyFolders": {
     "Assets\\Esska\\AnimatorMaintenance": "1d0757d5be55bf84e981e061a54258f4"
